@@ -1,0 +1,856 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+::-moz-selection {
+    /* Code for Firefox */
+    color: #fff;
+    background: red;
+}
+
+#menu-bar .navbar .container a img {
+    width: 120px;
+}
+
+.navbar {
+    padding-top: 20px;
+}
+
+.nav-link {
+    color: #000;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.navbar-toggler {
+    font-size: 25px;
+    padding: 0px 8px 9px;
+    background: #ffc81d;
+}
+
+.navbar-toggler-icon {
+    width: 22px;
+    height: 23px;
+}
+
+#menu-bar .banner .container .banner-text {
+    padding: 130px 0;
+}
+
+#menu-bar .banner .container .banner-text .banner-learn {
+    color: #fd511a;
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+#menu-bar .banner .container .banner-text h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: #000000;
+}
+
+#menu-bar .banner .container .banner-text .banner-lorem {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 36px;
+    color: #6c6b6b;
+}
+
+#menu-bar .banner .container .banner-text-img {
+    padding: 40px 0 10px;
+}
+
+#menu-bar .banner .container .banner-text-img img {
+    max-width: 60px;
+    height: auto;
+}
+
+#menu-bar .banner .container .banner-img {
+    margin: 5% 0;
+}
+
+#menu-bar .banner .container .banner-text a button {
+    font-size: 14px;
+    line-height: 19px;
+    color: #ffffff;
+    align-self: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin: 10px 0px;
+    background: #000;
+    border-radius: 6px;
+    padding: 10px 20px;
+    border: none;
+}
+
+#menu-bar .banner .container .banner-text a button .fa {
+    padding-left: 5px;
+}
+
+#menu-bar .square-opacity img {
+    position: absolute;
+    padding-top: 30%;
+    display: block;
+}
+
+.carousel-indicators li {
+    width: 16px;
+    height: 15px;
+    border-radius: 45%;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #cecece;
+    background-clip: padding-box;
+    opacity: 0.5;
+    transition: opacity 0.6s ease;
+    margin-top: 20px;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+    width: 50px;
+    border-radius: 16px 16px 16px 16px;
+    background-image: linear-gradient(90deg, #ff9c35, #ffd019);
+}
+
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+}
+
+#smartphone {
+    padding: 120px 0 0;
+}
+
+#smartphone .container .smartphone-tag-1 p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: #000;
+}
+
+#smartphone .container .smartphone-tag-2 a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #ff9d00;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+}
+
+#smartphone .container .smartphone-content .smartphone-btn a button {
+    font-size: 14px;
+    line-height: 19px;
+    color: #ffffff;
+    align-self: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin: 10px 0px;
+    background: #000;
+    border-radius: 6px;
+    padding: 10px 20px;
+    border: none;
+}
+
+#smartphone .container .smartphone-content .smartphone-btn a button .fa {
+    padding-left: 5px;
+}
+
+#smartphone .container .smartphone-content {
+    padding: 25px;
+    border-radius: 20px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(144, 144, 144, 0.4);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(144, 144, 144, 0.4);
+    box-shadow: 0px 0px 15px 0px rgba(144, 144, 144, 0.4);
+}
+
+#smartphone .container .smartphone-content h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #000;
+    padding: 15px 0 5px;
+}
+
+#smartphone .container .smartphone-content h2 span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #000;
+    padding: 15px 0 5px;
+}
+
+#smartphone .container .smartphone-content p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #707070;
+}
+
+#smartphone .container .smartphone-content span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #000;
+}
+
+#laptop {
+    padding: 40px 0 0;
+}
+
+#laptop .container .smartphone-tag-1 p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    color: #000;
+}
+
+#laptop .container .smartphone-tag-2 a {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #ff9d00;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+}
+
+#laptop .container .smartphone-content .smartphone-btn a button {
+    font-size: 14px;
+    line-height: 19px;
+    color: #ffffff;
+    align-self: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    margin: 10px 0px;
+    background: #000;
+    border-radius: 6px;
+    padding: 10px 20px;
+    border: none;
+}
+
+#laptop .container .smartphone-content .smartphone-btn a button .fa {
+    padding-left: 5px;
+}
+
+#laptop .container .smartphone-content {
+    padding: 25px;
+    border-radius: 20px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(144, 144, 144, 0.4);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(144, 144, 144, 0.4);
+    box-shadow: 0px 0px 15px 0px rgba(144, 144, 144, 0.4);
+}
+
+#laptop .container .smartphone-content h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #000;
+    padding: 15px 0 5px;
+}
+
+#laptop .container .smartphone-content h2 br {
+    display: none;
+}
+
+#laptop .container .smartphone-content h2 span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    color: #000;
+    padding: 15px 0 5px;
+}
+
+#laptop .container .smartphone-content p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    color: #707070;
+}
+
+#laptop .container .smartphone-content span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    color: #000;
+}
+
+#categories {
+    padding: 80px 0 10px;
+}
+
+#categories .container .categories-heading h1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    color: #000;
+}
+
+#categories .container .categories-heading span {
+    border: 5px solid #ff9c35;
+    border-radius: 40px;
+    margin: 0 auto;
+    width: 140px;
+    display: block;
+    margin-bottom: 7%;
+}
+
+#categories .container .categories-content-1 {
+    text-align: center;
+    padding: 55px 0 5px;
+    border-radius: 0 15px 0 25px;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(144, 144, 144, 0.4);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(144, 144, 144, 0.4);
+    box-shadow: 0px 0px 15px 0px rgba(144, 144, 144, 0.4);
+    margin: 82% 0;
+}
+
+#categories .container .categories-content-1 p {
+    padding-top: 35px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    color: #000;
+}
+
+#categories .container .categories-content-2 .categories-img-1 {
+    text-align: center;
+    padding: 55px 0 5px;
+    border-radius: 15px 0 25px 0;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(144, 144, 144, 0.4);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(144, 144, 144, 0.4);
+    box-shadow: 0px 0px 15px 0px rgba(144, 144, 144, 0.4);
+    margin-bottom: 30px;
+}
+
+#categories .container .categories-content-2 .categories-img-1 p {
+    padding-top: 35px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    color: #000;
+}
+
+#categories .container .categories-content-2 .categories-img-2 {
+    text-align: center;
+    padding: 55px 0 25px;
+    border-radius: 15px 0 25px 0;
+    background-color: #fff;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(144, 144, 144, 0.4);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(144, 144, 144, 0.4);
+    box-shadow: 0px 0px 15px 0px rgba(144, 144, 144, 0.4);
+}
+
+#categories .container .categories-content-2 .categories-img-2 p {
+    padding-top: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-size: 22px;
+    color: #000;
+}
+
+#categories .container .categories-content-3 {
+    padding: 10% 0;
+}
+
+@media (min-width: 1200px) {}
+
+
+/*large Device*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #smartphone .container .smartphone-content h2 span {
+        display: none;
+    }
+    #laptop .container .smartphone-content h2 span {
+        display: none;
+    }
+}
+
+
+/*Medium Device*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .carousel-indicators {
+        bottom: -18px;
+    }
+    #menu-bar .banner .container .banner-text {
+        padding: 100px 0;
+    }
+    #menu-bar .banner .container .banner-text h1 {
+        font-size: 25px;
+    }
+    #menu-bar .banner .container .banner-text .banner-lorem {
+        font-size: 14px;
+        line-height: 26px;
+    }
+    #menu-bar .banner .container .banner-text-img {
+        padding: 40px 0 7px;
+    }
+    #menu-bar .banner .container .banner-text-img img {
+        max-width: 50px;
+        height: auto;
+    }
+    #menu-bar .banner .container .banner-img {
+        margin: 25% 0;
+    }
+    #menu-bar .banner .container .banner-text a button {
+        font-size: 12px;
+        padding: 7px 15px;
+    }
+    #smartphone {
+        padding: 50px 0 0;
+    }
+    #smartphone .container .smartphone-tag-1 p {
+        font-size: 22px;
+    }
+    #smartphone .container .smartphone-tag-2 a {
+        font-size: 16px;
+    }
+    #smartphone .container .smartphone-content {
+        padding: 20px;
+    }
+    #smartphone .container .smartphone-content h2 {
+        font-size: 18px;
+        padding: 12px 0 4px;
+    }
+    #smartphone .container .smartphone-content h2 span {
+        display: none;
+    }
+    #smartphone .container .smartphone-content p {
+        font-size: 12px;
+    }
+    #smartphone .container .smartphone-content p br {
+        display: none;
+    }
+    #smartphone .container .smartphone-content span {
+        font-size: 18px;
+    }
+    #smartphone .container .smartphone-content .smartphone-btn a button {
+        font-size: 12px;
+        padding: 7px 15px;
+        margin: 10px 0px;
+    }
+    #laptop {
+        padding: 40px 0 0;
+    }
+    #laptop .container .smartphone-tag-1 p {
+        font-size: 22px;
+    }
+    #laptop .container .smartphone-tag-2 a {
+        font-size: 16px;
+    }
+    #laptop .container .smartphone-content {
+        padding: 20px;
+    }
+    #laptop .container .smartphone-content h2 {
+        font-size: 18px;
+        padding: 12px 0 4px;
+    }
+    #laptop .container .smartphone-content h2 span {
+        display: none;
+    }
+    #laptop .container .smartphone-content {
+        padding: 20px;
+    }
+    #laptop .container .smartphone-content h2 br {
+        display: block;
+    }
+    #laptop .container .smartphone-content p {
+        font-size: 12px;
+    }
+    #laptop .container .smartphone-content p br {
+        display: none;
+    }
+    #laptop .container .smartphone-content span {
+        font-size: 18px;
+    }
+    #laptop .container .smartphone-content .smartphone-btn a button {
+        font-size: 12px;
+        padding: 7px 15px;
+        margin: 10px 0px;
+    }
+    #categories {
+        padding: 70px 0;
+    }
+    #categories .container .categories-heading h1 {
+        font-size: 28px;
+    }
+    #categories .container .categories-heading span {
+        width: 100px;
+        margin-bottom: 6%;
+    }
+    #categories .container .categories-content-1 {
+        padding: 20px 0 2px;
+        margin: 95% 0;
+    }
+    #categories .container .categories-content-1 p {
+        padding-top: 10px;
+        font-size: 18px;
+    }
+    #categories .container .categories-content-2 .categories-img-1 {
+        padding: 20px 0 2px;
+        margin-bottom: 30px;
+    }
+    #categories .container .categories-content-2 .categories-img-1 p {
+        padding-top: 10px;
+        font-size: 22px;
+    }
+    #categories .container .categories-content-2 .categories-img-2 {
+        padding: 20px 0 2px;
+    }
+    #categories .container .categories-content-2 .categories-img-2 p {
+        padding-top: 15px;
+        font-size: 18px;
+    }
+    #categories .container .categories-content-3 {
+        padding: 15% 0;
+    }
+}
+
+
+/* Small Device*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    #menu-bar .navbar .container a img {
+        width: 100px;
+    }
+    #menu-bar .banner .container .banner-text {
+        padding: 70px 0;
+    }
+    #menu-bar .banner .container .banner-text h1 {
+        font-size: 22px;
+    }
+    #menu-bar .banner .container .banner-text .banner-lorem {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    #menu-bar .banner .container .banner-text-img {
+        padding: 40px 0 7px;
+    }
+    #menu-bar .banner .container .banner-text-img img {
+        max-width: 40px;
+        height: auto;
+    }
+    #menu-bar .banner .container .banner-img {
+        margin: 25% 0;
+    }
+    #menu-bar .banner .container .banner-text a button {
+        font-size: 10px;
+        padding: 7px 15px;
+    }
+    .carousel-indicators li {
+        width: 12px;
+        height: 11px;
+        border-radius: 45%;
+        margin-top: 20px;
+    }
+    .carousel-indicators .active {
+        width: 30px;
+        border-radius: 13px 13px 13px 13px;
+    }
+    .carousel-indicators {
+        position: absolute;
+        right: 0;
+        bottom: -40px;
+    }
+    #smartphone {
+        padding: 50px 0 0;
+    }
+    #smartphone .container .smartphone-tag-1 p {
+        font-size: 22px;
+    }
+    #smartphone .container .smartphone-tag-2 a {
+        font-size: 16px;
+    }
+    #smartphone .container .smartphone-content {
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+    #smartphone .container .smartphone-content h2 {
+        font-size: 18px;
+        padding: 12px 0 4px;
+    }
+    #smartphone .container .smartphone-content h2 span {
+        font-size: 18px;
+    }
+    #smartphone .container .smartphone-content p {
+        font-size: 12px;
+    }
+    #smartphone .container .smartphone-content span {
+        font-size: 18px;
+    }
+    #smartphone .container .smartphone-content .smartphone-btn a button {
+        font-size: 12px;
+        padding: 7px 15px;
+        margin: 10px 0px;
+    }
+    #laptop {
+        padding: 40px 0 0;
+    }
+    #laptop.container .smartphone-tag-1 p {
+        font-size: 22px;
+    }
+    #laptop .container .smartphone-tag-2 a {
+        font-size: 16px;
+    }
+    #laptop .container .smartphone-content {
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+    #laptop .container .smartphone-content h2 {
+        font-size: 18px;
+        padding: 12px 0 4px;
+    }
+    #laptop .container .smartphone-content h2 span {
+        font-size: 18px;
+    }
+    #laptop .container .smartphone-content p {
+        font-size: 12px;
+    }
+    #laptop .container .smartphone-content span {
+        font-size: 18px;
+    }
+    #laptop .container .smartphone-content .smartphone-btn a button {
+        font-size: 12px;
+        padding: 7px 15px;
+        margin: 10px 0px;
+    }
+    #categories {
+        padding: 50px 0;
+    }
+    #categories .container .categories-heading h1 {
+        font-size: 28px;
+    }
+    #categories .container .categories-heading span {
+        width: 100px;
+        margin-bottom: 6%;
+    }
+    #categories .container .categories-content-1 {
+        padding: 25px 0 2px;
+        margin: 1% 0 30px;
+    }
+    #categories .container .categories-content-1 p {
+        padding-top: 10px;
+        font-size: 18px;
+    }
+    #categories .container .categories-content-2 .categories-img-1 {
+        padding: 25px 0 2px;
+        margin-bottom: 30px;
+    }
+    #categories .container .categories-content-2 .categories-img-1 p {
+        padding-top: 10px;
+        font-size: 22px;
+    }
+    #categories .container .categories-content-2 .categories-img-2 {
+        padding: 25px 0 2px;
+    }
+    #categories .container .categories-content-2 .categories-img-2 p {
+        padding-top: 15px;
+        font-size: 18px;
+    }
+    #categories .container .categories-content-3 {
+        padding: 1% 0;
+    }
+}
+
+
+/*Extra Small Device*/
+
+@media (max-width: 575px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    #menu-bar .navbar .container a img {
+        width: 100px;
+    }
+    #menu-bar .banner .container .banner-text {
+        padding: 30px 0 0;
+    }
+    #menu-bar .banner .container .banner-text h1 {
+        font-size: 20px;
+    }
+    #menu-bar .banner .container .banner-text .banner-lorem {
+        font-size: 10px;
+        line-height: 20px;
+    }
+    #menu-bar .banner .container .banner-text br {
+        display: none;
+    }
+    #menu-bar .banner .container .banner-text-img {
+        padding: 0px 0 0px;
+    }
+    #menu-bar .banner .container .banner-text-img img {
+        display: none;
+    }
+    #menu-bar .banner .container .banner-img {
+        margin: 0% 0;
+    }
+    #menu-bar .banner .container .banner-text a button {
+        font-size: 8px;
+        padding: 5px 12px;
+    }
+    .carousel-indicators li {
+        width: 12px;
+        height: 11px;
+        border-radius: 45%;
+        margin-top: 20px;
+    }
+    .carousel-indicators .active {
+        width: 30px;
+        border-radius: 13px 13px 13px 13px;
+    }
+    .carousel-indicators {
+        position: absolute;
+        right: 0;
+        bottom: -40px;
+    }
+    #smartphone {
+        padding: 40px 0 0;
+    }
+    #smartphone .container .smartphone-tag-1 p {
+        font-size: 18px;
+    }
+    #smartphone .container .smartphone-tag-2 a {
+        font-size: 14px;
+    }
+    #smartphone .container .smartphone-content {
+        margin-bottom: 30px;
+    }
+    #smartphone .container .smartphone-content h2 {
+        font-size: 15px;
+        padding: 10px 0 2px;
+    }
+    #smartphone .container .smartphone-content h2 span {
+        font-size: 15px;
+    }
+    #smartphone .container .smartphone-content p {
+        font-size: 10px;
+    }
+    #smartphone .container .smartphone-content span {
+        font-size: 14px;
+    }
+    #smartphone .container .smartphone-content .smartphone-btn a button {
+        font-size: 10px;
+        padding: 7px 15px;
+        margin: 10px 0px;
+    }
+    #smartphone {
+        padding: 40px 0 0;
+    }
+    #smartphone .container .smartphone-tag-1 p {
+        font-size: 18px;
+    }
+    #smartphone .container .smartphone-tag-2 a {
+        font-size: 14px;
+    }
+    #smartphone .container .smartphone-content {
+        margin-bottom: 30px;
+    }
+    #smartphone .container .smartphone-content h2 {
+        font-size: 15px;
+        padding: 10px 0 2px;
+    }
+    #smartphone .container .smartphone-content h2 span {
+        font-size: 15px;
+    }
+    #smartphone .container .smartphone-content p {
+        font-size: 10px;
+    }
+    #smartphone .container .smartphone-content span {
+        font-size: 14px;
+    }
+    #smartphone .container .smartphone-content .smartphone-btn a button {
+        font-size: 10px;
+        padding: 7px 15px;
+        margin: 10px 0px;
+    }
+    #laptop {
+        padding: 40px 0 0;
+    }
+    #laptop .container .smartphone-tag-1 p {
+        font-size: 18px;
+    }
+    #laptop .container .smartphone-tag-2 a {
+        font-size: 14px;
+    }
+    #laptop .container .smartphone-content {
+        margin-bottom: 30px;
+    }
+    #laptop .container .smartphone-content h2 {
+        font-size: 15px;
+        padding: 10px 0 2px;
+    }
+    #laptop .container .smartphone-content h2 span {
+        font-size: 15px;
+    }
+    #laptop .container .smartphone-content p {
+        font-size: 10px;
+    }
+    #laptop .container .smartphone-content span {
+        font-size: 14px;
+    }
+    #laptop .container .smartphone-content .smartphone-btn a button {
+        font-size: 10px;
+        padding: 7px 15px;
+        margin: 10px 0px;
+    }
+    #categories {
+        padding: 50px 0;
+    }
+    #categories .container .categories-heading h1 {
+        font-size: 28px;
+    }
+    #categories .container .categories-heading span {
+        width: 100px;
+        margin-bottom: 6%;
+    }
+    #categories .container .categories-content-1 {
+        padding: 25px 0 2px;
+        margin: 1% 0 30px;
+    }
+    #categories .container .categories-content-1 p {
+        padding-top: 10px;
+        font-size: 18px;
+    }
+    #categories .container .categories-content-2 .categories-img-1 {
+        padding: 25px 0 2px;
+        margin-bottom: 30px;
+    }
+    #categories .container .categories-content-2 .categories-img-1 p {
+        padding-top: 10px;
+        font-size: 22px;
+    }
+    #categories .container .categories-content-2 .categories-img-2 {
+        padding: 25px 0 2px;
+    }
+    #categories .container .categories-content-2 .categories-img-2 p {
+        padding-top: 15px;
+        font-size: 18px;
+    }
+    #categories .container .categories-content-3 {
+        padding: 1% 0;
+    }
+}
